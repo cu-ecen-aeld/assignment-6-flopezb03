@@ -1,0 +1,23 @@
+From 48a4f24e127352010e6cc24afc0acb7430b18d88 Mon Sep 17 00:00:00 2001
+From: flopezb03 <f.lopezberrocal@gmail.com>
+Date: Tue, 18 Nov 2025 16:55:52 +0100
+Subject: [PATCH] Makefile modified
+
+---
+ Makefile | 5 +----
+ 1 file changed, 1 insertion(+), 4 deletions(-)
+
+diff --git a/Makefile b/Makefile
+index 7b08c49..706debd 100644
+--- a/Makefile
++++ b/Makefile
+@@ -1,8 +1,5 @@
+ 
+-SUBDIRS =  misc-progs misc-modules \
+-           skull scull scullc scullp lddbus sculld scullv shortprint simple tty \
+-	   pci usb\
+-	   sbull snull short
++SUBDIRS =  scull misc-modules
+ 
+ all: subdirs
+ 
